@@ -51,10 +51,10 @@ workflows:
   nightly:
     jobs:
       - nightly-wagtail-test
-    triggers:
-      - schedule:
-          cron: '0 0 * * *'
-          filters:
-            branches:
-              only:
-                - main
+    # triggers:
+    #   - schedule:
+    #       cron: '0 0 * * *'
+    #       filters:
+    #         branches:
+    #           only:
+    #             - main
